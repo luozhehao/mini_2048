@@ -1,0 +1,22 @@
+﻿生成启动时间为 2023/12/3 星期日 20:56:43。
+     1>项目“N:\VS_Study2019\CS_Project\Game2048\Game2048\Game2048.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         K:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /IN:\A_ARM_Linux\Atom_ARM_Files\006_OpenCV\opencv_cmake_build\install\include /IN:\A_ARM_Linux\Atom_ARM_Files\006_OpenCV\opencv_cmake_build\install\include\opencv /IN:\A_ARM_Linux\Atom_ARM_Files\006_OpenCV\opencv_cmake_build\install\include\opencv2 /ZI /nologo /W3 /WX- /sdl- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\Game2048.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Game2048.cpp
+         Game2048.cpp
+     1>n:\vs_study2019\cs_project\game2048\game2048\game2048.cpp(91): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+     1>n:\vs_study2019\cs_project\game2048\game2048\game2048.cpp(122): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>n:\vs_study2019\cs_project\game2048\game2048\game2048.cpp(130): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>n:\vs_study2019\cs_project\game2048\game2048\game2048.cpp(149): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+     1>n:\vs_study2019\cs_project\game2048\game2048\game2048.cpp(156): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1769): note: 参见“sprintf”的声明
+       Link:
+         K:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"N:\VS_Study2019\CS_Project\Game2048\Debug\Game2048.exe" /INCREMENTAL /NOLOGO /LIBPATH:N:\A_ARM_Linux\Atom_ARM_Files\006_OpenCV\opencv_cmake_build\install\x86\vc14\lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"N:\VS_Study2019\CS_Project\Game2048\Debug\Game2048.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"N:\VS_Study2019\CS_Project\Game2048\Debug\Game2048.lib" /MACHINE:X86 Debug\Game2048.obj
+         Debug\stdafx.obj
+         Game2048.vcxproj -> N:\VS_Study2019\CS_Project\Game2048\Debug\Game2048.exe
+     1>已完成生成项目“N:\VS_Study2019\CS_Project\Game2048\Game2048\Game2048.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.85
